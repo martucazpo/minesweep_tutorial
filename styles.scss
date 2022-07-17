@@ -1,0 +1,19 @@
+.grid {
+height:450px;
+width:450px;
+display: flex;
+flex-wrap: wrap;
+background-color: white;
+align-items: center;
+justify-content: center;
+
+    div {
+        height: 40px;
+        width: 40px;
+        border: 2px solid grey;
+    }
+}
+
+.checked {
+    background-color: red;
+}
